@@ -17,5 +17,8 @@ public class Request {
     @Id
     private String id;
     private String state;
-    private Date date;
+    private Date startdate;
+    private Date enddate;
+    private String reason;
+
 }
